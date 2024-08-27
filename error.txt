@@ -1,0 +1,151 @@
+
+Failed to compile.
+
+./app/myLikes/page.tsx
+89:33  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./app/siteRecipe/page.tsx
+115:8  Warning: React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/userRecipe/[id]/page.tsx
+93:8  Warning: React Hook useEffect has a missing dependency: 'id'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+231:8  Warning: React Hook useEffect has a missing dependency: 'id'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+285:8  Warning: React Hook useEffect has a missing dependency: 'router'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./components/recipe/imageUpload.tsx
+54:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./components/recipe/ImageUploader.tsx
+52:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./components/ui/actionsheet/index.tsx
+38:23  Error: Component definition is missing display name  react/display-name
+90:21  Error: Component definition is missing display name  react/display-name
+342:21  Error: Component definition is missing display name  react/display-name
+357:28  Error: Component definition is missing display name  react/display-name
+372:25  Error: Component definition is missing display name  react/display-name
+387:29  Error: Component definition is missing display name  react/display-name
+420:34  Error: Component definition is missing display name  react/display-name
+435:41  Error: Component definition is missing display name  react/display-name
+450:29  Error: Component definition is missing display name  react/display-name
+474:31  Error: Component definition is missing display name  react/display-name
+489:36  Error: Component definition is missing display name  react/display-name
+504:29  Error: Component definition is missing display name  react/display-name
+519:32  Error: Component definition is missing display name  react/display-name
+534:38  Error: Component definition is missing display name  react/display-name
+573:25  Error: Component definition is missing display name  react/display-name
+
+./components/ui/alert/index.tsx
+119:23  Error: Component definition is missing display name  react/display-name
+171:21  Error: Component definition is missing display name  react/display-name
+
+./components/ui/avatar/index.tsx
+87:23  Error: Component definition is missing display name  react/display-name
+104:28  Error: Component definition is missing display name  react/display-name
+129:35  Error: Component definition is missing display name  react/display-name
+153:28  Error: Component definition is missing display name  react/display-name
+177:28  Error: Component definition is missing display name  react/display-name
+
+./components/ui/badge/index.tsx
+107:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/button/index.tsx
+33:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/checkbox/index.tsx
+18:26  Error: Component definition is missing display name  react/display-name
+25:22  Error: Component definition is missing display name  react/display-name
+42:21  Error: Component definition is missing display name  react/display-name
+49:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/fab/index.tsx
+27:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/form-control/index.tsx
+27:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/icon/index.tsx
+20:23  Error: Component definition is missing display name  react/display-name
+107:21  Error: Component definition is missing display name  react/display-name
+145:10  Error: Component definition is missing display name  react/display-name
+
+./components/ui/icon/index.web.tsx
+12:13  Error: Component definition is missing display name  react/display-name
+34:23  Error: Component definition is missing display name  react/display-name
+104:21  Error: Component definition is missing display name  react/display-name
+147:10  Error: Component definition is missing display name  react/display-name
+
+./components/ui/image-background/index.tsx
+8:32  Error: Component definition is missing display name  react/display-name
+
+./components/ui/input/index.tsx
+28:23  Error: Component definition is missing display name  react/display-name
+80:22  Error: Component definition is missing display name  react/display-name
+
+./components/ui/menu/index.tsx
+70:27  Error: Component definition is missing display name  react/display-name
+90:14  Error: Component definition is missing display name  react/display-name
+105:19  Error: Component definition is missing display name  react/display-name
+
+./components/ui/popover/index.tsx
+22:22  Error: Component definition is missing display name  react/display-name
+
+./components/ui/portal/index.tsx
+8:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/progress/index.tsx
+53:25  Error: Component definition is missing display name  react/display-name
+67:36  Error: Component definition is missing display name  react/display-name
+
+./components/ui/radio/index.tsx
+16:26  Error: Component definition is missing display name  react/display-name
+23:22  Error: Component definition is missing display name  react/display-name
+30:21  Error: Component definition is missing display name  react/display-name
+48:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/select/index.tsx
+28:30  Error: Component definition is missing display name  react/display-name
+101:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/select/select-actionsheet.tsx
+41:23  Error: Component definition is missing display name  react/display-name
+341:21  Error: Component definition is missing display name  react/display-name
+356:28  Error: Component definition is missing display name  react/display-name
+371:25  Error: Component definition is missing display name  react/display-name
+386:29  Error: Component definition is missing display name  react/display-name
+411:34  Error: Component definition is missing display name  react/display-name
+426:41  Error: Component definition is missing display name  react/display-name
+441:29  Error: Component definition is missing display name  react/display-name
+465:31  Error: Component definition is missing display name  react/display-name
+480:36  Error: Component definition is missing display name  react/display-name
+495:29  Error: Component definition is missing display name  react/display-name
+510:32  Error: Component definition is missing display name  react/display-name
+525:38  Error: Component definition is missing display name  react/display-name
+564:25  Error: Component definition is missing display name  react/display-name
+
+./components/ui/slider/index.tsx
+16:22  Error: Component definition is missing display name  react/display-name
+21:28  Error: Component definition is missing display name  react/display-name
+174:23  Error: Component definition is missing display name  react/display-name
+208:28  Error: Component definition is missing display name  react/display-name
+233:28  Error: Component definition is missing display name  react/display-name
+264:34  Error: Component definition is missing display name  react/display-name
+
+./components/ui/switch/index.tsx
+11:23  Error: Component definition is missing display name  react/display-name
+
+./components/ui/textarea/index.tsx
+15:25  Error: Component definition is missing display name  react/display-name
+
+./components/ui/toast/index.tsx
+161:22  Error: Component definition is missing display name  react/display-name
+179:27  Error: Component definition is missing display name  react/display-name
+207:33  Error: Component definition is missing display name  react/display-name
+
+./components/ui/tooltip/index.tsx
+85:24  Error: Component definition is missing display name  react/display-name
+98:31  Error: Component definition is missing display name  react/display-name
+114:28  Error: Component definition is missing display name  react/display-name
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+PS C:\users\jyw\desktop\i5> ^C

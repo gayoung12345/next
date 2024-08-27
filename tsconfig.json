@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "downlevelIteration": true,
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["node", "react", "react-dom"], // "react-native" 제거
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "paths": {
+            "@/*": ["./*"]
+        },
+        "jsxImportSource": "nativewind"
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts",
+        "out/types/**/*.ts",
+        "app/userRecipe/[id]/page.tsx",
+        "app/listPost/page.tsx",
+        "app/page.jsx"
+    ],
+    "exclude": ["node_modules"]
+}
